@@ -81,7 +81,7 @@ const RequestAddFonts = () => {
             </a>
           </div>
           <div className="container10">
-            <form name="requestfont" method="POST" className="form" data-netlify="true">
+            <form name="requestfont" action="/success" method="POST" className="form" data-netlify="true">
               <input type="hidden" name="requestfont" value="requestfont" />
               <input
                 type="text"

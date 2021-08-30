@@ -115,14 +115,6 @@ const RequestAddFonts = () => {
                 placeholder="Font Website"
                 className="textinput10 thqTextInput"
               />
-              <input
-                type="text"
-                id="font link"
-                name="font link"
-                required="true"
-                placeholder="Font Link"
-                className="textinput3 thqTextInput"
-              />
               <button name="submit" type="submit" className="button thqButton">
                 <span>Send Request</span>
                 <img
@@ -378,26 +370,6 @@ const RequestAddFonts = () => {
             background-color: #333333;
           }
           .textinput2:focus {
-            color: #000000;
-            background-color: #ffffff;
-          }
-          .textinput3 {
-            color: #ffffff;
-            width: 100%;
-            outline: none;
-            font-size: 2.0915032679738563vh;
-            transition: 0.3s;
-            font-family: Circular Std Book;
-            padding-top: 3.2679738562091503vh;
-            border-width: 0px;
-            padding-left: 2.250351617440225vw;
-            border-radius: 1.8300653594771241vh;
-            margin-bottom: 4.705882352941177vh;
-            padding-right: 2.250351617440225vw;
-            padding-bottom: 3.2679738562091503vh;
-            background-color: #333333;
-          }
-          .textinput3:focus {
             color: #000000;
             background-color: #ffffff;
           }

@@ -81,7 +81,8 @@ const RequestAddFonts = () => {
             </a>
           </div>
           <div className="container10">
-            <form className="form">
+            <form name="requests" className="form">
+              <input type="hidden" name="form-name" value="requests" />
               <input
                 type="text"
                 id="name"

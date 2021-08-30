@@ -115,6 +115,14 @@ const RequestAddFonts = () => {
                 placeholder="Font Website"
                 className="textinput10 thqTextInput"
               />
+              <input
+                type="hidden"
+                id="none"
+                name="none"
+                required="false"
+                placeholder=""
+                className=""
+              />
               <button name="submit" type="submit" className="button thqButton">
                 <span>Send Request</span>
                 <img

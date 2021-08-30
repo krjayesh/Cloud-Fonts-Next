@@ -10,7 +10,7 @@ const RequestAddFonts = () => {
           <title>Request Custom Fonts - CloudFonts Beta</title>
           <meta
             name="description"
-            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon ð"
+            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon."
           />
           <meta
             property="og:title"
@@ -18,7 +18,7 @@ const RequestAddFonts = () => {
           />
           <meta
             property="og:description"
-            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon ð"
+            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon."
           />
           <meta
             property="og:image"
@@ -74,15 +74,15 @@ const RequestAddFonts = () => {
                   className="image3"
                 />
                 <div className="container09">
-                  <h1 className="text2">Muhittin GÃ¼neÅ</h1>
+                  <h1 className="text2">Muhittin Güneş</h1>
                   <span className="text3">gunesmuhittin.com</span>
                 </div>
               </div>
             </a>
           </div>
           <div className="container10">
-            <form name="requests" method="post" className="form" data-netlify="true">
-              <input type="hidden" name="requests" value="requests" />
+            <form name="requestfont" method="POST" className="form" data-netlify="true">
+              <input type="hidden" name="requestfont" value="requestfont" />
               <input
                 type="text"
                 id="name"

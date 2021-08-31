@@ -172,6 +172,7 @@ const Security = () => {
             justify-content: flex-start;
             background-image: url('/playground_assets/security-bg-1200h.webp');
             background-position: center;
+            border= none;
           }
           .text {
             color: #ffffff;

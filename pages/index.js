@@ -22,69 +22,35 @@ const Home = () => {
           />
         </Head>
         <div className="container01">
-          <div className="container02">
-            <Link href="/">
-              <a className="link">
-                <img
-                  alt="image"
-                  src="/playground_assets/logo.svg"
-                  className="image thqLink"
-                />
-              </a>
-            </Link>
-          </div>
-          <div className="container03">
-            <div className="container04">
-              <span className="text">Home</span>
-              <span className="text01">Security</span>
-              <Link href="/request">
-                <a className="link01 thqLink">Request</a>
-              </Link>
-            </div>
-            <div className="container05">
-              <img
-                alt="image"
-                src="/playground_assets/twitter.svg"
-                className="image01"
-              />
-              <img
-                alt="image"
-                src="/playground_assets/instagram.svg"
-                className="image02"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="container06">
-          <h1 className="text02">free Cloud fonts</h1>
-          <h2 className="text03">
+          <h1 className="text">free Cloud fonts</h1>
+          <h2 className="text01">
             Make your websites faster with some mind blowing fonts &amp; make
             better SEO
           </h2>
         </div>
-        <div className="container07">
+        <div className="container02">
           <a
             href="https://1769.netlify.app/stylesheet.css"
             target="_blank"
             rel="noreferrer noopener"
-            className="link02"
+            className="link"
           >
-            <div className="container08 thqLink">
+            <div className="container03 thqLink">
               <img
                 alt="image"
                 src="/playground_assets/1769font-1000h.webp"
-                className="image03"
+                className="image"
               />
-              <div className="container09">
-                <h1 className="text04">1769 font</h1>
+              <div className="container04">
+                <h1 className="text02">1769 font</h1>
               </div>
-              <div className="container10">
+              <div className="container05">
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image04"
+                  className="image01"
                 />
-                <span className="text05">1769.netlify.app</span>
+                <span className="text03">1769.netlify.app</span>
               </div>
             </div>
           </a>
@@ -92,24 +58,76 @@ const Home = () => {
             href="https://1769.netlify.app/stylesheet.css"
             target="_blank"
             rel="noreferrer noopener"
-            className="link03"
+            className="link01"
           >
-            <div className="container11 thqLink">
+            <div className="container06 thqLink">
               <img
                 alt="image"
                 src="/playground_assets/arka-1000h.webp"
-                className="image05"
+                className="image02"
               />
-              <div className="container12">
-                <h1 className="text06">arka heritage</h1>
+              <div className="container07">
+                <h1 className="text04">arka heritage</h1>
               </div>
-              <div className="container13">
+              <div className="container08">
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image06"
+                  className="image03"
                 />
-                <span className="text07">arkaheritage.netlify.app</span>
+                <span className="text05">arkaheritage.netlify.app</span>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://1769.netlify.app/stylesheet.css"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="link02"
+          >
+            <div className="container09 thqLink">
+              <img
+                alt="image"
+                src="/playground_assets/tannimbus-1000h.webp"
+                className="image04"
+              />
+              <div className="container10">
+                <h1 className="text06">tan nimbus</h1>
+              </div>
+              <div className="container11">
+                <img
+                  alt="image"
+                  src="/playground_assets/link-2.svg"
+                  className="image05"
+                />
+                <span className="text07">tannimbus.netlify.app</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="container12">
+          <a
+            href="https://1769.netlify.app/stylesheet.css"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="link03"
+          >
+            <div className="container13 thqLink">
+              <img
+                alt="image"
+                src="/playground_assets/1769font-1000h.webp"
+                className="image06"
+              />
+              <div className="container14">
+                <h1 className="text08">1769 font</h1>
+              </div>
+              <div className="container15">
+                <img
+                  alt="image"
+                  src="/playground_assets/link-2.svg"
+                  className="image07"
+                />
+                <span className="text09">1769.netlify.app</span>
               </div>
             </div>
           </a>
@@ -119,145 +137,131 @@ const Home = () => {
             rel="noreferrer noopener"
             className="link04"
           >
-            <div className="container14 thqLink">
+            <div className="container16 thqLink">
               <img
                 alt="image"
-                src="/playground_assets/tannimbus-1000h.webp"
-                className="image07"
+                src="/playground_assets/arka-1000h.webp"
+                className="image08"
               />
-              <div className="container15">
-                <h1 className="text08">tan nimbus</h1>
+              <div className="container17">
+                <h1 className="text10">arka heritage</h1>
               </div>
-              <div className="container16">
+              <div className="container18">
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image08"
+                  className="image09"
                 />
-                <span className="text09">tannimbus.netlify.app</span>
+                <span className="text11">arkaheritage.netlify.app</span>
               </div>
             </div>
           </a>
-        </div>
-        <div className="container17">
           <a
             href="https://1769.netlify.app/stylesheet.css"
             target="_blank"
             rel="noreferrer noopener"
             className="link05"
           >
-            <div className="container18 thqLink">
-              <img
-                alt="image"
-                src="/playground_assets/1769font-1000h.webp"
-                className="image09"
-              />
-              <div className="container19">
-                <h1 className="text10">1769 font</h1>
-              </div>
-              <div className="container20">
-                <img
-                  alt="image"
-                  src="/playground_assets/link-2.svg"
-                  className="image10"
-                />
-                <span className="text11">1769.netlify.app</span>
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://1769.netlify.app/stylesheet.css"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="link06"
-          >
-            <div className="container21 thqLink">
-              <img
-                alt="image"
-                src="/playground_assets/arka-1000h.webp"
-                className="image11"
-              />
-              <div className="container22">
-                <h1 className="text12">arka heritage</h1>
-              </div>
-              <div className="container23">
-                <img
-                  alt="image"
-                  src="/playground_assets/link-2.svg"
-                  className="image12"
-                />
-                <span className="text13">arkaheritage.netlify.app</span>
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://1769.netlify.app/stylesheet.css"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="link07"
-          >
-            <div className="container24 thqLink">
+            <div className="container19 thqLink">
               <img
                 alt="image"
                 src="/playground_assets/tannimbus-1000h.webp"
-                className="image13"
+                className="image10"
               />
-              <div className="container25">
-                <h1 className="text14">tan nimbus</h1>
+              <div className="container20">
+                <h1 className="text12">tan nimbus</h1>
               </div>
-              <div className="container26">
+              <div className="container21">
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image14"
+                  className="image11"
                 />
-                <span className="text15">tannimbus.netlify.app</span>
+                <span className="text13">tannimbus.netlify.app</span>
               </div>
             </div>
           </a>
         </div>
-        <div className="container27">
-          <h2 className="text16">Do you know more fonts?</h2>
-          <h1 className="text17">Request your fonts</h1>
-          <div className="container28">
+        <div className="container22">
+          <h2 className="text14">Do you know more fonts?</h2>
+          <h1 className="text15">Request your fonts</h1>
+          <div className="container23">
             <Link href="/request">
-              <a className="link08 thqButton thqLink">
+              <a className="link06 thqButton thqLink">
                 <span>Request Fonts</span>
               </a>
             </Link>
             <img
               alt="image"
               src="/playground_assets/its%20free.svg"
-              className="image15"
+              className="image12"
             />
           </div>
         </div>
         <img
           alt="image"
           src="/playground_assets/logos.svg"
-          className="image16"
+          className="image13"
         />
-        <div className="container29">
-          <div className="container30">
-            <h1 className="text19">Made with</h1>
+        <div className="container24">
+          <div className="container25">
+            <h1 className="text17">Made with</h1>
             <img
               alt="image"
               src="/playground_assets/heart-emojie.svg"
-              className="image17"
+              className="image14"
             />
-            <h1 className="text20">by</h1>
+            <h1 className="text18">by</h1>
             <a
               href="https://krjayesh.vercel.app"
               target="_blank"
               rel="noreferrer noopener"
-              className="link09"
+              className="link07"
             >
-              <h1 className="text21 thqLink">Jayesh Kumar</h1>
+              <h1 className="text19 thqLink">Jayesh Kumar</h1>
             </a>
           </div>
-          <div className="container31">
-            <span className="text22">Security</span>
-            <span className="text23">Privacy</span>
+          <div className="container26">
+            <Link href="/security">
+              <a className="link08 thqLink">Security</a>
+            </Link>
+            <span className="text20">Privacy</span>
+          </div>
+        </div>
+        <div className="container27">
+          <div className="container28">
+            <Link href="/">
+              <a className="link09">
+                <img
+                  alt="image"
+                  src="/playground_assets/logo.svg"
+                  className="image15 thqLink"
+                />
+              </a>
+            </Link>
+          </div>
+          <div className="container29">
+            <div className="container30">
+              <span className="text21">Home</span>
+              <Link href="/security">
+                <a className="link10 thqLink">Security</a>
+              </Link>
+              <Link href="/request">
+                <a className="link11 thqLink">Request</a>
+              </Link>
+            </div>
+            <div className="container31">
+              <img
+                alt="image"
+                src="/playground_assets/twitter.svg"
+                className="image16"
+              />
+              <img
+                alt="image"
+                src="/playground_assets/instagram.svg"
+                className="image17"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -277,93 +281,6 @@ const Home = () => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            margin-top: 8.8vh;
-            align-items: center;
-            padding-left: 3.7vw;
-            padding-right: 3.7vw;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .container02 {
-            flex: 0 0 auto;
-            width: auto;
-            height: auto;
-            display: flex;
-            align-items: space-between;
-            flex-direction: column;
-          }
-          .link {
-            display: contents;
-          }
-          .image {
-            height: 3.4vh;
-            object-fit: cover;
-            text-decoration: none;
-          }
-          .container03 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .container04 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .text {
-            color: #ffffff;
-            font-size: 2.091vh;
-            font-style: normal;
-            font-family: Circular Std Book;
-            font-weight: 400;
-            margin-right: 6.535vh;
-          }
-          .text01 {
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 2.091vh;
-            font-style: normal;
-            transition: 0.3s;
-            font-family: Circular Std Book;
-            font-weight: 400;
-            margin-right: 6.535vh;
-          }
-          .text01:hover {
-            color: #ffffff;
-          }
-          .link01 {
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 2.091vh;
-            font-style: normal;
-            transition: 0.3s;
-            font-family: Circular Std Book;
-            font-weight: 400;
-            margin-right: 6.535vh;
-            text-decoration: none;
-          }
-          .link01:hover {
-            color: #ffffff;
-          }
-          .container05 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .image01 {
-            height: 3.4vh;
-            object-fit: cover;
-            margin-right: 3.4vh;
-          }
-          .image02 {
-            height: 3.4vh;
-            object-fit: cover;
-          }
-          .container06 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
             margin-top: 24.967vh;
             align-items: flex-start;
             padding-left: 3.7vw;
@@ -372,14 +289,14 @@ const Home = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .text02 {
+          .text {
             color: #ffffff;
             font-size: 6.797vh;
             font-style: normal;
             font-family: joyrideextended;
             font-weight: 400;
           }
-          .text03 {
+          .text01 {
             color: #ffffff;
             font-size: 2.8758169934640523vh;
             font-style: normal;
@@ -387,7 +304,7 @@ const Home = () => {
             font-family: Circular Std Book;
             font-weight: 400;
           }
-          .container07 {
+          .container02 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -398,10 +315,10 @@ const Home = () => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .link02 {
+          .link {
             display: contents;
           }
-          .container08 {
+          .container03 {
             flex: 0 0 auto;
             width: 28.4vw;
             margin: 0px;
@@ -414,20 +331,87 @@ const Home = () => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .container08:hover {
+          .container03:hover {
             width: 27.4vw;
             margin-top: 0.5vw;
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image03 {
+          .image {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
             object-fit: cover;
             border-radius: 1.96vh;
           }
-          .container09 {
+          .container04 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+          }
+          .text02 {
+            font-size: 3.4vh;
+            font-style: normal;
+            margin-top: 4.444vh;
+            font-family: joyrideregular;
+            font-weight: 400;
+            margin-left: 2.109vw;
+          }
+          .container05 {
+            flex: 0 0 auto;
+            width: auto;
+            height: 3.267vh;
+            display: flex;
+            margin-top: 1.045vh;
+            align-items: center;
+            margin-bottom: 4.218vh;
+            justify-content: flex-start;
+          }
+          .image01 {
+            height: 3.267vh;
+            object-fit: cover;
+            margin-left: 2.109vw;
+          }
+          .text03 {
+            font-size: 2.614vh;
+            font-style: normal;
+            font-family: Circular Std Book;
+            font-weight: 400;
+            margin-left: 0.632vw;
+          }
+          .link01 {
+            display: contents;
+          }
+          .container06 {
+            flex: 0 0 auto;
+            width: 28.4vw;
+            margin: 0px;
+            display: flex;
+            transition: 0.3s;
+            align-items: flex-start;
+            border-radius: 2.614vh;
+            flex-direction: column;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .container06:hover {
+            width: 27.4vw;
+            margin-top: 0.5vw;
+            margin-left: 0.5vw;
+            margin-right: 0.5vw;
+          }
+          .image02 {
+            width: 97.5845410628%;
+            align-self: center;
+            margin-top: 0.6535947712418301vh;
+            object-fit: cover;
+            border-radius: 1.96vh;
+          }
+          .container07 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -443,7 +427,7 @@ const Home = () => {
             font-weight: 400;
             margin-left: 2.109vw;
           }
-          .container10 {
+          .container08 {
             flex: 0 0 auto;
             width: auto;
             height: 3.267vh;
@@ -453,7 +437,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image04 {
+          .image03 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -465,10 +449,10 @@ const Home = () => {
             font-weight: 400;
             margin-left: 0.632vw;
           }
-          .link03 {
+          .link02 {
             display: contents;
           }
-          .container11 {
+          .container09 {
             flex: 0 0 auto;
             width: 28.4vw;
             margin: 0px;
@@ -481,20 +465,20 @@ const Home = () => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .container11:hover {
+          .container09:hover {
             width: 27.4vw;
             margin-top: 0.5vw;
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image05 {
+          .image04 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
             object-fit: cover;
             border-radius: 1.96vh;
           }
-          .container12 {
+          .container10 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -510,7 +494,7 @@ const Home = () => {
             font-weight: 400;
             margin-left: 2.109vw;
           }
-          .container13 {
+          .container11 {
             flex: 0 0 auto;
             width: auto;
             height: 3.267vh;
@@ -520,7 +504,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image06 {
+          .image05 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -532,10 +516,21 @@ const Home = () => {
             font-weight: 400;
             margin-left: 0.632vw;
           }
-          .link04 {
+          .container12 {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            padding-left: 3.7vw;
+            margin-bottom: 7.843vh;
+            padding-right: 3.7vw;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .link03 {
             display: contents;
           }
-          .container14 {
+          .container13 {
             flex: 0 0 auto;
             width: 28.4vw;
             margin: 0px;
@@ -548,20 +543,20 @@ const Home = () => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .container14:hover {
+          .container13:hover {
             width: 27.4vw;
             margin-top: 0.5vw;
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image07 {
+          .image06 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
             object-fit: cover;
             border-radius: 1.96vh;
           }
-          .container15 {
+          .container14 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -577,7 +572,7 @@ const Home = () => {
             font-weight: 400;
             margin-left: 2.109vw;
           }
-          .container16 {
+          .container15 {
             flex: 0 0 auto;
             width: auto;
             height: 3.267vh;
@@ -587,7 +582,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image08 {
+          .image07 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -599,21 +594,10 @@ const Home = () => {
             font-weight: 400;
             margin-left: 0.632vw;
           }
-          .container17 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-left: 3.7vw;
-            margin-bottom: 7.843vh;
-            padding-right: 3.7vw;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .link05 {
+          .link04 {
             display: contents;
           }
-          .container18 {
+          .container16 {
             flex: 0 0 auto;
             width: 28.4vw;
             margin: 0px;
@@ -626,20 +610,20 @@ const Home = () => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .container18:hover {
+          .container16:hover {
             width: 27.4vw;
             margin-top: 0.5vw;
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image09 {
+          .image08 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
             object-fit: cover;
             border-radius: 1.96vh;
           }
-          .container19 {
+          .container17 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -655,7 +639,7 @@ const Home = () => {
             font-weight: 400;
             margin-left: 2.109vw;
           }
-          .container20 {
+          .container18 {
             flex: 0 0 auto;
             width: auto;
             height: 3.267vh;
@@ -665,7 +649,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image10 {
+          .image09 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -677,10 +661,10 @@ const Home = () => {
             font-weight: 400;
             margin-left: 0.632vw;
           }
-          .link06 {
+          .link05 {
             display: contents;
           }
-          .container21 {
+          .container19 {
             flex: 0 0 auto;
             width: 28.4vw;
             margin: 0px;
@@ -693,20 +677,20 @@ const Home = () => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .container21:hover {
+          .container19:hover {
             width: 27.4vw;
             margin-top: 0.5vw;
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image11 {
+          .image10 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
             object-fit: cover;
             border-radius: 1.96vh;
           }
-          .container22 {
+          .container20 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -722,7 +706,7 @@ const Home = () => {
             font-weight: 400;
             margin-left: 2.109vw;
           }
-          .container23 {
+          .container21 {
             flex: 0 0 auto;
             width: auto;
             height: 3.267vh;
@@ -732,7 +716,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image12 {
+          .image11 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -744,74 +728,7 @@ const Home = () => {
             font-weight: 400;
             margin-left: 0.632vw;
           }
-          .link07 {
-            display: contents;
-          }
-          .container24 {
-            flex: 0 0 auto;
-            width: 28.4vw;
-            margin: 0px;
-            display: flex;
-            transition: 0.3s;
-            align-items: flex-start;
-            border-radius: 2.614vh;
-            flex-direction: column;
-            justify-content: center;
-            text-decoration: none;
-            background-color: #ffffff;
-          }
-          .container24:hover {
-            width: 27.4vw;
-            margin-top: 0.5vw;
-            margin-left: 0.5vw;
-            margin-right: 0.5vw;
-          }
-          .image13 {
-            width: 97.5845410628%;
-            align-self: center;
-            margin-top: 0.6535947712418301vh;
-            object-fit: cover;
-            border-radius: 1.96vh;
-          }
-          .container25 {
-            flex: 0 0 auto;
-            width: auto;
-            height: auto;
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-          }
-          .text14 {
-            font-size: 3.4vh;
-            font-style: normal;
-            margin-top: 4.444vh;
-            font-family: joyrideregular;
-            font-weight: 400;
-            margin-left: 2.109vw;
-          }
-          .container26 {
-            flex: 0 0 auto;
-            width: auto;
-            height: 3.267vh;
-            display: flex;
-            margin-top: 1.045vh;
-            align-items: center;
-            margin-bottom: 4.218vh;
-            justify-content: flex-start;
-          }
-          .image14 {
-            height: 3.267vh;
-            object-fit: cover;
-            margin-left: 2.109vw;
-          }
-          .text15 {
-            font-size: 2.614vh;
-            font-style: normal;
-            font-family: Circular Std Book;
-            font-weight: 400;
-            margin-left: 0.632vw;
-          }
-          .container27 {
+          .container22 {
             width: 92vw;
             height: 52.287581699346404vh;
             display: flex;
@@ -825,7 +742,7 @@ const Home = () => {
             background-image: url('/playground_assets/stills-1200h.webp');
             background-position: center;
           }
-          .text16 {
+          .text14 {
             color: #ffffff;
             font-size: 3.9215686274509802vh;
             font-style: normal;
@@ -834,7 +751,7 @@ const Home = () => {
             margin-left: 4.50070323488045vw;
             margin-bottom: 3.1372549019607843vh;
           }
-          .text17 {
+          .text15 {
             color: #ffffff;
             font-size: 6.5359477124183005vh;
             font-style: normal;
@@ -842,7 +759,7 @@ const Home = () => {
             font-weight: 400;
             margin-left: 4.50070323488045vw;
           }
-          .container28 {
+          .container23 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -852,7 +769,7 @@ const Home = () => {
             margin-left: 4.50070323488045vw;
             justify-content: flex-start;
           }
-          .link08 {
+          .link06 {
             cursor: pointer;
             display: flex;
             font-size: 2.6143790849673203vh;
@@ -874,7 +791,7 @@ const Home = () => {
             padding-bottom: 2.8758169934640523vh;
             text-decoration: none;
           }
-          .link08:hover {
+          .link06:hover {
             color: #000000;
             border: none;
             margin-top: 0.3758169934640523vh;
@@ -888,20 +805,20 @@ const Home = () => {
             padding-bottom: 2.3758169934640523vh;
             background-color: #ffffff;
           }
-          .image15 {
+          .image12 {
             cursor: text;
             height: 2.8758169934640523vh;
             object-fit: cover;
             margin-left: 4.313725490196078vh;
           }
-          .image16 {
+          .image13 {
             width: 84%;
             align-self: center;
             margin-top: 27.45098039215686vh;
             object-fit: cover;
             margin-bottom: 27.45098039215686vh;
           }
-          .container29 {
+          .container24 {
             width: 100%;
             height: 100px;
             display: flex;
@@ -915,37 +832,37 @@ const Home = () => {
             background-image: url('/playground_assets/footer-1000h.webp');
             background-position: center;
           }
-          .container30 {
+          .container25 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: flex-start;
           }
-          .text19 {
+          .text17 {
             color: #ffffff;
             font-size: 2.3529411764705883vh;
             font-style: normal;
             font-family: Circular Std Book;
             font-weight: 400;
           }
-          .image17 {
+          .image14 {
             cursor: text;
             height: 2.6143790849673203vh;
             object-fit: cover;
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .text20 {
+          .text18 {
             color: #ffffff;
             font-size: 2.3529411764705883vh;
             font-style: normal;
             font-family: Circular Std Book;
             font-weight: 400;
           }
-          .link09 {
+          .link07 {
             display: contents;
           }
-          .text21 {
+          .text19 {
             color: #ffffff;
             font-size: 2.3529411764705883vh;
             font-style: normal;
@@ -955,16 +872,16 @@ const Home = () => {
             margin-left: 0.3vw;
             text-decoration: none;
           }
-          .text21:hover {
+          .text19:hover {
             color: rgba(255, 255, 255, 0.6);
           }
-          .container31 {
+          .container26 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .text22 {
+          .link08 {
             color: #ffffff;
             font-size: 2.3529411764705883vh;
             font-style: normal;
@@ -972,20 +889,111 @@ const Home = () => {
             font-family: Circular Std Book;
             font-weight: 400;
             margin-right: 2.5vw;
+            text-decoration: none;
           }
-          .text22:hover {
+          .link08:hover {
             color: rgba(255, 255, 255, 0.6);
           }
-          .text23 {
+          .text20 {
             color: #ffffff;
+            cursor: pointer;
             font-size: 2.3529411764705883vh;
             font-style: normal;
             transition: 0.3s;
             font-family: Circular Std Book;
             font-weight: 400;
           }
-          .text23:hover {
+          .text20:hover {
             color: rgba(255, 255, 255, 0.6);
+          }
+          .container27 {
+            top: 0px;
+            flex: 0 0 auto;
+            left: auto;
+            right: 0px;
+            width: 100%;
+            display: flex;
+            position: absolute;
+            align-self: flex-start;
+            margin-top: 8.8vh;
+            align-items: center;
+            padding-left: 3.7vw;
+            padding-right: 3.7vw;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .container28 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: space-between;
+            flex-direction: column;
+          }
+          .link09 {
+            display: contents;
+          }
+          .image15 {
+            height: 3.4vh;
+            object-fit: cover;
+            text-decoration: none;
+          }
+          .container29 {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .container30 {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .text21 {
+            color: #ffffff;
+            font-size: 2.091vh;
+            font-style: normal;
+            font-family: Circular Std Book;
+            font-weight: 100;
+            margin-right: 6.535vh;
+          }
+          .link10 {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 2.091vh;
+            font-style: normal;
+            transition: 0.3s;
+            font-family: Circular Std Book;
+            font-weight: 100;
+            margin-right: 6.535vh;
+            text-decoration: none;
+          }
+
+          .link11 {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 2.091vh;
+            font-style: normal;
+            transition: 0.3s;
+            font-family: Circular Std Book;
+            font-weight: 100;
+            margin-right: 6.535vh;
+            text-decoration: none;
+          }
+
+          .container31 {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .image16 {
+            height: 3.2vh;
+            object-fit: cover;
+            margin-right: 3.4vh;
+          }
+          .image17 {
+            height: 3.2vh;
+            object-fit: cover;
           }
         `}
       </style>

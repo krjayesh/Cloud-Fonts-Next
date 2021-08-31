@@ -2,27 +2,23 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
-const RequestAddFonts = () => {
+const Success = () => {
   return (
     <>
       <div className="container">
         <Head>
-          <title>Request Custom Fonts - CloudFonts Beta</title>
+          <title>Success - Cloud Fonts For Faster Websites & Webapps</title>
           <meta
             name="description"
-            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon ð"
+            content="Make your websites faster and beautiful fonts for free. Works with HTML, javascript and PHP websites."
           />
           <meta
             property="og:title"
-            content="Request Custom Fonts - CloudFonts Beta"
+            content="Success - Cloud Fonts For Faster Websites &amp; Webapps"
           />
           <meta
             property="og:description"
-            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon ð"
-          />
-          <meta
-            property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/bd581eaa-d044-49a4-b328-2bc427fcf4f9/2f11f3f1-7e4b-47a3-a00f-8728c3c31275?org_if_sml=1"
+            content="Make your websites faster and beautiful fonts for free. Works with HTML, javascript and PHP websites."
           />
         </Head>
         <div className="container01">
@@ -47,54 +43,29 @@ const RequestAddFonts = () => {
             </a>
           </div>
           <div className="container05">
-            <form className="form">
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required="true"
-                placeholder="Your Name"
-                className="textinput thqTextInput"
-              />
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required="true"
-                placeholder="Your Email"
-                className="textinput1 thqTextInput"
-              />
-              <input
-                type="text"
-                id="font family"
-                name="font family"
-                required="true"
-                placeholder="Font Family Name"
-                className="textinput2 thqTextInput"
-              />
-              <input
-                type="text"
-                id="font link"
-                name="font link"
-                required="true"
-                placeholder="Font Link"
-                className="textinput3 thqTextInput"
-              />
-              <button name="submit" type="submit" className="button thqButton">
-                <span>Send Request</span>
-                <img
-                  alt="image"
-                  src="/playground_assets/arrow-up-right%201.svg"
-                  className="image1"
-                />
-              </button>
-            </form>
+            <div className="container06">
+              <h1 className="text2">thanks for joining</h1>
+              <h1 className="text3">
+                Your response have been recorded. Will try to reply as soon we
+                get online. Thaks for bieng part of us.
+              </h1>
+              <Link href="/">
+                <a className="link1 thqButton thqLink">
+                  <span>Homepage</span>
+                  <img
+                    alt="image"
+                    src="/playground_assets/arrow-up-right%201.svg"
+                    className="image1"
+                  />
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
-        <div className="container06">
-          <div className="container07">
+        <div className="container07">
+          <div className="container08">
             <Link href="/">
-              <a className="link1">
+              <a className="link2">
                 <img
                   alt="image"
                   src="/playground_assets/logo.svg"
@@ -103,17 +74,17 @@ const RequestAddFonts = () => {
               </a>
             </Link>
           </div>
-          <div className="container08">
-            <div className="container09">
+          <div className="container09">
+            <div className="container10">
               <Link href="/">
-                <a className="link2 thqLink">Home</a>
+                <a className="link3 thqLink">Home</a>
               </Link>
               <Link href="/security">
-                <a className="link3 thqLink">Security</a>
+                <a className="link4 thqLink">Security</a>
               </Link>
-              <span className="text3">Request</span>
+              <span className="text5">Request</span>
             </div>
-            <div className="container10">
+            <div className="container11">
               <img
                 alt="image"
                 src="/playground_assets/twitter.svg"
@@ -218,91 +189,32 @@ const RequestAddFonts = () => {
             justify-content: flex-end;
             background-color: #000000;
           }
-          .form {
+          .container06 {
+            flex: 0 0 auto;
             width: 28.129395218002813vw;
-            margin-bottom: 12.418300653594772vh;
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40vh;
+            flex-direction: column;
+            justify-content: flex-end;
           }
-          .textinput {
+          .text2 {
             color: #ffffff;
-            width: 100%;
-            outline: none;
-            font-size: 2.0915032679738563vh;
-            transition: 0.3s;
-            font-family: Circular Std Book;
-            padding-top: 3.2679738562091503vh;
-            border-width: 0px;
-            padding-left: 2.250351617440225vw;
-            border-radius: 1.8300653594771241vh;
-            margin-bottom: 4.705882352941177vh;
-            padding-right: 2.250351617440225vw;
-            padding-bottom: 3.2679738562091503vh;
-            background-color: #333333;
+            font-size: 2.8vh;
+            font-style: normal;
+            font-family: joyrideregular;
+            font-weight: 100;
+            margin-bottom: 2vh;
           }
-          .textinput:focus {
-            color: #000000;
-            background-color: #ffffff;
-          }
-          .textinput1 {
+          .text3 {
             color: #ffffff;
-            width: 100%;
-            outline: none;
             font-size: 2.0915032679738563vh;
-            transition: 0.3s;
+            font-style: normal;
             font-family: Circular Std Book;
-            padding-top: 3.2679738562091503vh;
-            border-width: 0px;
-            padding-left: 2.250351617440225vw;
-            border-radius: 1.8300653594771241vh;
-            margin-bottom: 4.705882352941177vh;
-            padding-right: 2.250351617440225vw;
-            padding-bottom: 3.2679738562091503vh;
-            background-color: #333333;
+            font-weight: 400;
+            margin-bottom: 6vh;
           }
-          .textinput1:focus {
-            color: #000000;
-            background-color: #ffffff;
-          }
-          .textinput2 {
-            color: #ffffff;
-            width: 100%;
-            outline: none;
-            font-size: 2.0915032679738563vh;
-            transition: 0.3s;
-            font-family: Circular Std Book;
-            padding-top: 3.2679738562091503vh;
-            border-width: 0px;
-            padding-left: 2.250351617440225vw;
-            border-radius: 1.8300653594771241vh;
-            margin-bottom: 4.705882352941177vh;
-            padding-right: 2.250351617440225vw;
-            padding-bottom: 3.2679738562091503vh;
-            background-color: #333333;
-          }
-          .textinput2:focus {
-            color: #000000;
-            background-color: #ffffff;
-          }
-          .textinput3 {
-            color: #ffffff;
-            width: 100%;
-            outline: none;
-            font-size: 2.0915032679738563vh;
-            transition: 0.3s;
-            font-family: Circular Std Book;
-            padding-top: 3.2679738562091503vh;
-            border-width: 0px;
-            padding-left: 2.250351617440225vw;
-            border-radius: 1.8300653594771241vh;
-            margin-bottom: 4.705882352941177vh;
-            padding-right: 2.250351617440225vw;
-            padding-bottom: 3.2679738562091503vh;
-            background-color: #333333;
-          }
-          .textinput3:focus {
-            color: #000000;
-            background-color: #ffffff;
-          }
-          .button {
+          .link1 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -316,12 +228,13 @@ const RequestAddFonts = () => {
             border-radius: 1.8300653594771241vh;
             flex-direction: row;
             justify-content: space-between;
+            text-decoration: none;
           }
           .image1 {
             height: 3.1372549019607843vh;
             object-fit: cover;
           }
-          .container06 {
+          .container07 {
             top: 0px;
             flex: 0 0 auto;
             left: auto;
@@ -337,7 +250,7 @@ const RequestAddFonts = () => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .container07 {
+          .container08 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -345,7 +258,7 @@ const RequestAddFonts = () => {
             align-items: space-between;
             flex-direction: column;
           }
-          .link1 {
+          .link2 {
             display: contents;
           }
           .image2 {
@@ -353,30 +266,17 @@ const RequestAddFonts = () => {
             object-fit: cover;
             text-decoration: none;
           }
-          .container08 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
           .container09 {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .link2 {
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 2.091vh;
-            font-style: normal;
-            transition: 0.3s;
-            font-family: Circular Std Book;
-            font-weight: 100;
-            margin-right: 6.535vh;
-            text-decoration: none;
-          }
-          .link2:hover {
-            color: #ffffff;
+          .container10 {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
           }
           .link3 {
             color: rgba(255, 255, 255, 0.5);
@@ -388,8 +288,21 @@ const RequestAddFonts = () => {
             margin-right: 6.535vh;
             text-decoration: none;
           }
+          .link3:hover {
+            color: #ffffff;
+          }
+          .link4 {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 2.091vh;
+            font-style: normal;
+            transition: 0.3s;
+            font-family: Circular Std Book;
+            font-weight: 100;
+            margin-right: 6.535vh;
+            text-decoration: none;
+          }
 
-          .text3 {
+          .text5 {
             color: #ffffff;
             font-size: 2.091vh;
             font-style: normal;
@@ -397,7 +310,7 @@ const RequestAddFonts = () => {
             font-weight: 100;
             margin-right: 6.535vh;
           }
-          .container10 {
+          .container11 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -418,4 +331,4 @@ const RequestAddFonts = () => {
   )
 }
 
-export default RequestAddFonts
+export default Success

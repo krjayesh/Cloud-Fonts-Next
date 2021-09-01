@@ -47,11 +47,12 @@ const RequestAddFonts = () => {
             </a>
           </div>
           <div className="container05">
-            <form className="form">
+            <form name="Font Requests" action="/submited" method="POST" className="form" data-netlify="true">
+              <input type="hidden" name="requestfont" value="Font Requests" />
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="Your Name"
                 required="true"
                 placeholder="Your Name"
                 className="textinput thqTextInput"
@@ -59,7 +60,7 @@ const RequestAddFonts = () => {
               <input
                 type="email"
                 id="email"
-                name="email"
+                name="Your Email"
                 required="true"
                 placeholder="Your Email"
                 className="textinput1 thqTextInput"
@@ -67,7 +68,7 @@ const RequestAddFonts = () => {
               <input
                 type="text"
                 id="font family"
-                name="font family"
+                name="Font Family"
                 required="true"
                 placeholder="Font Family Name"
                 className="textinput2 thqTextInput"
@@ -75,10 +76,16 @@ const RequestAddFonts = () => {
               <input
                 type="text"
                 id="font link"
-                name="font link"
+                name="Font Website"
                 required="true"
-                placeholder="Font Link"
+                placeholder="Font Website"
                 className="textinput3 thqTextInput"
+              />
+              <input
+                type="hidden"
+                id="none"
+                name="none"
+                required="false"
               />
               <button name="submit" type="submit" className="button thqButton">
                 <span>Send Request</span>

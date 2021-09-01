@@ -167,12 +167,14 @@ const Security = () => {
             display: flex;
             position: relative;
             align-items: flex-end;
+            border-color: #000000;
+            border-style: hidden;
+            border-width: 0px;
             flex-direction: row;
             background-size: cover;
             justify-content: flex-start;
-            background-image: url('/playground_assets/security-bg-1200h.webp');
+            background-image: url('/playground_assets/security-1200h.webp');
             background-position: center;
-            border= none;
           }
           .text {
             color: #ffffff;

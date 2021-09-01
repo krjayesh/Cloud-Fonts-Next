@@ -36,7 +36,7 @@ const Success = () => {
                   className="image"
                 />
                 <div className="container04">
-                  <h1 className="text">Muhittin Güneş</h1>
+                  <h1 className="text">Muhittin GÃ¼neÅ</h1>
                   <span className="text1">gunesmuhittin.com</span>
                 </div>
               </div>

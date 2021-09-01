@@ -10,7 +10,7 @@ const RequestAddFonts = () => {
           <title>Request Custom Fonts - CloudFonts Beta</title>
           <meta
             name="description"
-            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon."
+            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon ð"
           />
           <meta
             property="og:title"
@@ -18,7 +18,7 @@ const RequestAddFonts = () => {
           />
           <meta
             property="og:description"
-            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon."
+            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon ð"
           />
           <meta
             property="og:image"
@@ -40,19 +40,18 @@ const RequestAddFonts = () => {
                   className="image"
                 />
                 <div className="container04">
-                  <h1 className="text">Muhittin Güneş</h1>
+                  <h1 className="text">Muhittin GÃ¼neÅ</h1>
                   <span className="text1">gunesmuhittin.com</span>
                 </div>
               </div>
             </a>
           </div>
           <div className="container05">
-            <form name="Font Requests" action="/submited" method="POST" className="form" data-netlify="true">
-              <input type="hidden" name="requestfont" value="Font Requests" />
+            <form className="form">
               <input
                 type="text"
                 id="name"
-                name="Your Name"
+                name="name"
                 required="true"
                 placeholder="Your Name"
                 className="textinput thqTextInput"
@@ -60,7 +59,7 @@ const RequestAddFonts = () => {
               <input
                 type="email"
                 id="email"
-                name="Your Email"
+                name="email"
                 required="true"
                 placeholder="Your Email"
                 className="textinput1 thqTextInput"
@@ -68,7 +67,7 @@ const RequestAddFonts = () => {
               <input
                 type="text"
                 id="font family"
-                name="Font Family"
+                name="font family"
                 required="true"
                 placeholder="Font Family Name"
                 className="textinput2 thqTextInput"
@@ -76,16 +75,10 @@ const RequestAddFonts = () => {
               <input
                 type="text"
                 id="font link"
-                name="Font Website"
+                name="font link"
                 required="true"
-                placeholder="Font Website"
+                placeholder="Font Link"
                 className="textinput3 thqTextInput"
-              />
-              <input
-                type="hidden"
-                id="none"
-                name="none"
-                required="false"
               />
               <button name="submit" type="submit" className="button thqButton">
                 <span>Send Request</span>

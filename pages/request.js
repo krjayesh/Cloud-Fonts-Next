@@ -10,7 +10,7 @@ const RequestAddFonts = () => {
           <title>Request Custom Fonts - CloudFonts Beta</title>
           <meta
             name="description"
-            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon ð"
+            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon"
           />
           <meta
             property="og:title"
@@ -18,7 +18,7 @@ const RequestAddFonts = () => {
           />
           <meta
             property="og:description"
-            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon ð"
+            content="Get your custom fonts on our fonthosting for free. Drop a message, and we will add it soon"
           />
           <meta
             property="og:image"
@@ -40,7 +40,7 @@ const RequestAddFonts = () => {
                   className="image"
                 />
                 <div className="container04">
-                  <h1 className="text">Muhittin GÃ¼neÅ</h1>
+                  <h1 className="text">Muhittin Güneş</h1>
                   <span className="text1">gunesmuhittin.com</span>
                 </div>
               </div>

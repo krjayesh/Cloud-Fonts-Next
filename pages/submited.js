@@ -301,7 +301,9 @@ const Success = () => {
             margin-right: 6.535vh;
             text-decoration: none;
           }
-
+          .link4:hover {
+            color: #ffffff;
+          }
           .text5 {
             color: #ffffff;
             font-size: 2.091vh;

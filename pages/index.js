@@ -325,6 +325,7 @@ const Home = () => {
           }
           .image {
             width: 100px;
+            display: none;
             object-fit: cover;
           }
           .container02 {
@@ -1051,6 +1052,7 @@ const Home = () => {
             }
             .image {
               width: 92%;
+              display: flex;
               align-self: flex-end;
               margin-bottom: 8vh;
             }

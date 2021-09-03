@@ -28,6 +28,11 @@ const Home = () => {
             better SEO
           </h2>
         </div>
+        <img
+          alt="image"
+          src="/playground_assets/fonts%20preview-1000w.webp"
+          className="image"
+        />
         <div className="container02">
           <a
             href="https://1769.netlify.app/stylesheet.css"
@@ -39,7 +44,7 @@ const Home = () => {
               <img
                 alt="image"
                 src="/playground_assets/1769font-1000h.webp"
-                className="image"
+                className="image01"
               />
               <div className="container04">
                 <h1 className="text02">1769 font</h1>
@@ -48,7 +53,7 @@ const Home = () => {
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image01"
+                  className="image02"
                 />
                 <span className="text03">1769.netlify.app</span>
               </div>
@@ -64,7 +69,7 @@ const Home = () => {
               <img
                 alt="image"
                 src="/playground_assets/arka-1000h.webp"
-                className="image02"
+                className="image03"
               />
               <div className="container07">
                 <h1 className="text04">arka heritage</h1>
@@ -73,7 +78,7 @@ const Home = () => {
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image03"
+                  className="image04"
                 />
                 <span className="text05">arkaheritage.netlify.app</span>
               </div>
@@ -89,7 +94,7 @@ const Home = () => {
               <img
                 alt="image"
                 src="/playground_assets/tannimbus-1000h.webp"
-                className="image04"
+                className="image05"
               />
               <div className="container10">
                 <h1 className="text06">tan nimbus</h1>
@@ -98,7 +103,7 @@ const Home = () => {
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image05"
+                  className="image06"
                 />
                 <span className="text07">tannimbus.netlify.app</span>
               </div>
@@ -116,7 +121,7 @@ const Home = () => {
               <img
                 alt="image"
                 src="/playground_assets/1769font-1000h.webp"
-                className="image06"
+                className="image07"
               />
               <div className="container14">
                 <h1 className="text08">1769 font</h1>
@@ -125,7 +130,7 @@ const Home = () => {
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image07"
+                  className="image08"
                 />
                 <span className="text09">1769.netlify.app</span>
               </div>
@@ -141,7 +146,7 @@ const Home = () => {
               <img
                 alt="image"
                 src="/playground_assets/arka-1000h.webp"
-                className="image08"
+                className="image09"
               />
               <div className="container17">
                 <h1 className="text10">arka heritage</h1>
@@ -150,7 +155,7 @@ const Home = () => {
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image09"
+                  className="image10"
                 />
                 <span className="text11">arkaheritage.netlify.app</span>
               </div>
@@ -166,7 +171,7 @@ const Home = () => {
               <img
                 alt="image"
                 src="/playground_assets/tannimbus-1000h.webp"
-                className="image10"
+                className="image11"
               />
               <div className="container20">
                 <h1 className="text12">tan nimbus</h1>
@@ -175,7 +180,7 @@ const Home = () => {
                 <img
                   alt="image"
                   src="/playground_assets/link-2.svg"
-                  className="image11"
+                  className="image12"
                 />
                 <span className="text13">tannimbus.netlify.app</span>
               </div>
@@ -194,14 +199,14 @@ const Home = () => {
             <img
               alt="image"
               src="/playground_assets/its%20free.svg"
-              className="image12"
+              className="image13"
             />
           </div>
         </div>
         <img
           alt="image"
           src="/playground_assets/logos.svg"
-          className="image13"
+          className="image14"
         />
         <div className="container24">
           <div className="container25">
@@ -209,7 +214,7 @@ const Home = () => {
             <img
               alt="image"
               src="/playground_assets/heart-emojie.svg"
-              className="image14"
+              className="image15"
             />
             <h1 className="text18">by</h1>
             <a
@@ -235,7 +240,7 @@ const Home = () => {
                 <img
                   alt="image"
                   src="/playground_assets/logo.svg"
-                  className="image15 thqLink"
+                  className="image16 thqLink"
                 />
               </a>
             </Link>
@@ -251,16 +256,30 @@ const Home = () => {
               </Link>
             </div>
             <div className="container31">
-              <img
-                alt="image"
-                src="/playground_assets/twitter.svg"
-                className="image16"
-              />
-              <img
-                alt="image"
-                src="/playground_assets/instagram.svg"
-                className="image17"
-              />
+              <a
+                href="https://twitter.com/CloudFonts"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="link12"
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/twitter.svg"
+                  className="image17 thqLink"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/cloudfonts/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="link13"
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/instagram.svg"
+                  className="image18 thqLink"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -304,6 +323,10 @@ const Home = () => {
             font-family: Circular Std Book;
             font-weight: 400;
           }
+          .image {
+            width: 100px;
+            object-fit: cover;
+          }
           .container02 {
             flex: 0 0 auto;
             width: 100%;
@@ -337,7 +360,7 @@ const Home = () => {
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image {
+          .image01 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
@@ -370,7 +393,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image01 {
+          .image02 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -404,7 +427,7 @@ const Home = () => {
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image02 {
+          .image03 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
@@ -437,7 +460,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image03 {
+          .image04 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -471,7 +494,7 @@ const Home = () => {
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image04 {
+          .image05 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
@@ -504,7 +527,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image05 {
+          .image06 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -549,7 +572,7 @@ const Home = () => {
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image06 {
+          .image07 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
@@ -582,7 +605,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image07 {
+          .image08 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -616,7 +639,7 @@ const Home = () => {
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image08 {
+          .image09 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
@@ -649,7 +672,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image09 {
+          .image10 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -683,7 +706,7 @@ const Home = () => {
             margin-left: 0.5vw;
             margin-right: 0.5vw;
           }
-          .image10 {
+          .image11 {
             width: 97.5845410628%;
             align-self: center;
             margin-top: 0.6535947712418301vh;
@@ -716,7 +739,7 @@ const Home = () => {
             margin-bottom: 4.218vh;
             justify-content: flex-start;
           }
-          .image11 {
+          .image12 {
             height: 3.267vh;
             object-fit: cover;
             margin-left: 2.109vw;
@@ -805,13 +828,13 @@ const Home = () => {
             padding-bottom: 2.3758169934640523vh;
             background-color: #ffffff;
           }
-          .image12 {
+          .image13 {
             cursor: text;
             height: 2.8758169934640523vh;
             object-fit: cover;
             margin-left: 4.313725490196078vh;
           }
-          .image13 {
+          .image14 {
             width: 84%;
             align-self: center;
             margin-top: 27.45098039215686vh;
@@ -845,7 +868,7 @@ const Home = () => {
             font-family: Circular Std Book;
             font-weight: 400;
           }
-          .image14 {
+          .image15 {
             cursor: text;
             height: 2.6143790849673203vh;
             object-fit: cover;
@@ -933,7 +956,7 @@ const Home = () => {
           .link09 {
             display: contents;
           }
-          .image15 {
+          .image16 {
             height: 3.4vh;
             object-fit: cover;
             text-decoration: none;
@@ -990,30 +1013,46 @@ const Home = () => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .image16 {
+          .link12 {
+            display: contents;
+          }
+          .image17 {
             height: 3.2vh;
             object-fit: cover;
             transition: 0.3s;
             margin-right: 3.4vh;
+            text-decoration: none;
           }
 
-          .image17 {
+          .link13 {
+            display: contents;
+          }
+          .image18 {
             height: 3.2vh;
             object-fit: cover;
+            text-decoration: none;
           }
           @media (max-width: 479px) {
             .container01 {
+              margin-top: 16vh;
               padding-left: 4vh;
+              margin-bottom: 6vh;
               padding-right: 4vh;
             }
             .text {
-              font-size: 2.973vh;
+              font-size: 2.8vh;
               font-style: normal;
               font-family: joyrideregular;
-              font-weight: 500;
+              font-weight: 400;
             }
             .text01 {
+              font-size: 2.15vh;
               margin-top: 1vh;
+            }
+            .image {
+              width: 92%;
+              align-self: flex-end;
+              margin-bottom: 8vh;
             }
             .container02 {
               display: none;
@@ -1024,14 +1063,28 @@ const Home = () => {
             .container22 {
               display: none;
             }
-            .image13 {
+            .image14 {
               display: none;
             }
-            .image14 {
+            .container24 {
+              align-self: center;
+              justify-content: center;
+            }
+            .text17 {
+              font-style: normal;
+              font-weight: 100;
+            }
+            .image15 {
               margin-left: 1.5vw;
               margin-right: 1.5vw;
             }
+            .text18 {
+              font-style: normal;
+              font-weight: 100;
+            }
             .text19 {
+              font-style: normal;
+              font-weight: 100;
               margin-left: 1.5vw;
             }
             .container26 {

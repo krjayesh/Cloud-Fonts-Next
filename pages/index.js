@@ -30,7 +30,7 @@ const Home = () => {
         </div>
         <img
           alt="image"
-          src="/playground_assets/fonts%20preview-1000w.webp"
+          src="/playground_assets/fontspreview-1000w.png"
           className="image"
         />
         <div className="container02">
